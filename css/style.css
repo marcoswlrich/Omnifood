@@ -110,3 +110,20 @@
   color: #cf711f;
   font-weight: 700;
 }
+
+/* SEÇÃO - Como funciona */
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
