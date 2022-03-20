@@ -3,8 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="icon" href="img/favicon.png" />
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
@@ -14,7 +20,21 @@
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Omnifood</title>
+  <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+  <title>Omnifood &mdash; Nunca mais cozinhe!</title>
 </head>
 <body>
   <header class="header">
@@ -23,10 +43,10 @@
     </a>
     <nav class="main-nav">
       <ul class="main-nav-list">
-        <li><a class="main-nav-link" href="#">Como funciona</a></li>
-        <li><a class="main-nav-link" href="#">Refeições</a></li>
-        <li><a class="main-nav-link" href="#">Depoimentos</a></li>
-        <li><a class="main-nav-link" href="#">Preços</a></li>
+        <li><a class="main-nav-link" href="#how">Como funciona</a></li>
+        <li><a class="main-nav-link" href="#meals">Refeições</a></li>
+        <li><a class="main-nav-link" href="#testimonials">Depoimentos</a></li>
+        <li><a class="main-nav-link" href="#pricing">Preços</a></li>
         <li><a class="main-nav-link nav-cta" href="#">Experimente Grátis</a></li>
       </ul>
     </nav>
@@ -91,7 +111,7 @@
       </div>
     </section>
 
-    <section class="section-how">
+    <section class="section-how" id="how">
       <div class="container">
         <span class="subheading">Como funciona</span>
         <h2 class="heading-secondary">
@@ -164,11 +184,11 @@
       </div>
     </section>
 
-    <section class="section-meals">
+    <section class="section-meals" id="meals">
       <div class="container center-text">
-        <span class="subheading">Meals</span>
+        <span class="subheading">Refeições</span>
         <h2 class="heading-secondary">
-          Omnifood AI chooses from 5,000+ recipes
+          Omnifood escolhe entre mais de 5.000 receitas
         </h2>
       </div>
 
@@ -181,13 +201,13 @@
           />
           <div class="meal-content">
             <div class="meal-tags">
-              <span class="tag tag--vegetarian">Vegetarian</span>
+              <span class="tag tag--vegetarian">Vegetariana</span>
             </div>
-            <p class="meal-title">Japanese Gyozas</p>
+            <p class="meal-title">Guioza Japonesa</p>
             <ul class="meal-attributes">
               <li class="meal-attribute">
                 <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                <span><strong>650</strong> calories</span>
+                <span><strong>650</strong> calorias</span>
               </li>
               <li class="meal-attribute">
                 <ion-icon
@@ -198,7 +218,7 @@
               </li>
               <li class="meal-attribute">
                 <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                <span><strong>4.9</strong> rating (537)</span>
+                <span><strong>4.9</strong> avaliação (537)</span>
               </li>
             </ul>
           </div>
@@ -212,14 +232,14 @@
           />
           <div class="meal-content">
             <div class="meal-tags">
-              <span class="tag tag--vegan">Vegan</span>
+              <span class="tag tag--vegan">Vegana</span>
               <span class="tag tag--paleo">Paleo</span>
             </div>
-            <p class="meal-title">Avocado Salad</p>
+            <p class="meal-title">Salada de Abacate</p>
             <ul class="meal-attributes">
               <li class="meal-attribute">
                 <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                <span><strong>400</strong> calories</span>
+                <span><strong>400</strong> calorias</span>
               </li>
               <li class="meal-attribute">
                 <ion-icon
@@ -230,22 +250,22 @@
               </li>
               <li class="meal-attribute">
                 <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                <span><strong>4.8</strong> rating (441)</span>
+                <span><strong>4.8</strong> avaliação (441)</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div class="diets">
-          <h3 class="heading-tertiary">Works with any diet:</h3>
+          <h3 class="heading-tertiary">Funciona com qualquer dieta:</h3>
           <ul class="list">
             <li class="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Vegetarian</span>
+              <span>Vegetariana</span>
             </li>
             <li class="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Vegan</span>
+              <span>Vegana</span>
             </li>
             <li class="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -253,11 +273,11 @@
             </li>
             <li class="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Gluten-free</span>
+              <span>Sem Glúten</span>
             </li>
             <li class="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Lactose-free</span>
+              <span>Sem Lactose</span>
             </li>
             <li class="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -269,22 +289,22 @@
             </li>
             <li class="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Low FODMAP</span>
+              <span>Baixo teor de FODMAPs</span>
             </li>
             <li class="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Kid-friendly</span>
+              <span>Adequado para crianças</span>
             </li>
           </ul>
         </div>
       </div>
 
       <div class="container all-recipes">
-        <a href="#" class="link">See all recipes &rarr;</a>
+        <a href="#" class="link">Veja todas as receitas &rarr;</a>
       </div>
     </section>
 
-    <section class="section-testimonials">
+    <section class="section-testimonials" id="testimonials">
       <div class="testimonials-container">
         <span class="subheading">Testimonials</span>
         <h2 class="heading-secondary">Once you try it, you can't go back</h2>
