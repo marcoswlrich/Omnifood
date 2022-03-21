@@ -18,7 +18,7 @@
 
 <br>
 
-<img alt="omnifood" src=".github/omnifood.png" align="center" width="100%">
+<img alt="omnifood" src=".github/omnifood.png" align="center" width="50%">
 <br>
 <br>
 <img alt="omnifood" src=".github/responsive.png" width="100%">
