@@ -7,6 +7,12 @@ const currentYear = new Date().getFullYear()
 yearEl.textContent = currentYear
 
 // Funcionamento da navegação móvel
+const btnNavEl = document.querySelector('.btn-mobile-nav')
+const headerEl = document.querySelector('.header')
+
+btnNavEl.addEventListener('click', function () {
+  headerEl.classList.toggle('nav-open')
+})
 
 // Animação de rolagem mais suave
 
