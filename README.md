@@ -36,7 +36,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## 💻 Projeto
-
+Projeto desenvolvido no curso: 
+[Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/learn/lecture/27513400?start=1#overview)
+<br>
 Omnifood tem um grande foco no bem-estar do consumidor por meio de uma alimentação saudável. A maioria das pessoas estão muito ocupadas com seus trabalhos, família, amigos, dentre outras atividades importantes, e não sobra muito tempo para cozinhar. Isso pode levar a uma dieta muito pobre e consequências duradouras para a saúde. Portanto, queremos resolver esse problema com uma abordagem centrada em IA. Os usuários poderão usar nosso aplicativo para selecionar a sua dieta e os alimentos que gostam e não gostam, e nosso algoritmo de IA criará um plano de refeições semanal, personalizado e individual.
 
 
