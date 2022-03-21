@@ -13,11 +13,11 @@
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
- <img src="https://img.shields.io/static/v1?label=Omnifood&message=HTML-CSS&color=8257E5&labelColor=000000" alt="ReactJS" />
+ <img src="https://img.shields.io/static/v1?label=Omnifood&message=HTML-CSS&color=cf711f&labelColor=000000" alt="ReactJS" />
 </p>
 
 <br>
-
+#cf711f
 <img alt="omnifood" src=".github/omnifood.png" width="100%">
 
 ## ✨ Tecnologias
