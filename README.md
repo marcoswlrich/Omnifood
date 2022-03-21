@@ -39,7 +39,7 @@ Omnifood tem um grande foco no bem-estar do consumidor por meio de uma alimenta�
 
 ## 💡 Solução
 
-Nessa aplicação foram explorados vários conceitos importantes:
+Nessa aplicação foram explorados alguns conceitos importantes:
 
 - [x] HTML, CSS e Javascript puro
 - [x] Responsividade e acessibilidade
@@ -54,3 +54,8 @@ Nessa aplicação foram explorados vários conceitos importantes:
 Esse projeto está sob a licença MIT.
 
 ---
+
+<br><br>
+<div align="center">
+  <p>Feito com :coffee: e &#129304; por <strong>Marcos Wlrich</strong></p>
+</div>
