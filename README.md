@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="omnifood" title="ignews" src=".github/omnifood-logo.png" />
+  <img alt="omnifood" title="Omnifood" src=".github/omnifood-logo.png" />
 </h1>
 
 <p align="center">
