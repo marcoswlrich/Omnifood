@@ -21,44 +21,33 @@
 <img alt="omnifood" src=".github/omnifood.png" align="center" width="100%">
 <br>
 <br>
-<img alt="omnifood" src=".github/responsive.png" width="50%">
+<p align="center">
+<img alt="omnifood" src=".github/responsive.png" width="25%">
+</p>
 
 ## ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [ReactJS](https://reactjs.org)
-- [NextJS](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Next-Auth](https://next-auth.js.org/)
-- [Stripe](https://stripe.com/)
-- [FaunaDB](https://fauna.com/)
-- [Prismic CMS](https://prismic.io/)
-- [Jest](https://jestjs.io/pt-BR/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://www.w3schools.com/css/)
+- [JavaScript](https://www.javascript.com/)
 
 ## 💻 Projeto
 
-O ignews é uma aplicação "jamstack" que permite assinar um canal de notícias para ler artigos técnicos. Projeto elaborado durante o Ignite de ReactJS.
+Omnifood tem um grande foco no bem-estar do consumidor por meio de uma alimentação saudável. A maioria das pessoas estão muito ocupadas com seus trabalhos, família, amigos, dentre outras atividades importantes, e não sobra muito tempo para cozinhar. Isso pode levar a uma dieta muito pobre e consequências duradouras para a saúde. Portanto, queremos resolver esse problema com uma abordagem centrada em IA. Os usuários poderão usar nosso aplicativo para selecionar a sua dieta e os alimentos que gostam e não gostam, e nosso algoritmo de IA criará um plano de refeições semanal, personalizado e individual.
 
 ## 💡 Solução
 
 Nessa aplicação foram explorados vários conceitos importantes:
 
-- [x] Configuração de pagamento com o Stripe
-- [x] Utilização de um CMS para exibir os artigos
-- [x] Utilização do FaunaDB para salvar os dados de assinaturas dos usuários
-- [x] Configuração de autenticação com o Github
-- [x] Testes do frontend com o Jest
+- [x] HTML, CSS e Javascript puro
+- [x] Responsividade e acessibilidade
 
 ## 🚀 Como executar
 
 - Clone o repositório
-- Instale as dependências com `yarn`
-- Crie o seu .env com base no .env.example
-- Ouça os eventos do stripe no webhook com `stripe listen --forward-to localhost:3000/api/webhooks --api-key <sua api key>`
-- Inicie o servidor com `yarn dev`
-
-Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
+- Abra o arquivo index.html em seu navegador favorito
 
 ## 📄 Licença
 
