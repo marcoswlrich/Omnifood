@@ -18,10 +18,10 @@
 
 <br>
 
-<img alt="omnifood" src=".github/omnifood.png" align="center" width="50%">
+<img alt="omnifood" src=".github/omnifood.png" align="center" width="100%">
 <br>
 <br>
-<img alt="omnifood" src=".github/responsive.png" width="100%">
+<img alt="omnifood" src=".github/responsive.png" width="50%">
 
 ## ✨ Tecnologias
 
