@@ -59,7 +59,6 @@ Nessa aplicação foram explorados alguns conceitos importantes:
 Esse projeto está sob a licença MIT.
 
 ---
-<br>
 <div align="center">
   <p>Feito com :coffee: e &#129304; por <strong>Marcos Wlrich</strong></p>
 </div>
